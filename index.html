@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WNS Mid-02 - Questions</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            color: #333;
+            font-size: 1rem;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 1rem 0.5rem;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+            page-break-after: always;
+        }
+
+        /* Headings */
+        h2 {
+            color: #0077cc;
+            margin: 2rem 0 1rem;
+            font-size: 1.6rem;
+        }
+
+        h3 {
+            color: #444;
+            margin-top: 0.8rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+
+        /* Paragraphs */
+        p {
+            margin: 0.5rem 0;
+        }
+
+        /* Lists */
+        ul {
+            margin: 0.3rem 0 1rem 1rem;
+            padding-left: 1rem;
+        }
+
+        li>ul {
+            margin-top: 0.3rem;
+            margin-bottom: 0.6rem;
+            padding-left: 0.7rem;
+        }
+
+        li>ul>li {
+            margin-bottom: 0.4rem;
+        }
+
+        /* Images */
+        img {
+            display: block;
+            max-width: 80%;
+            height: auto;
+            margin: 1rem auto;
+            border-radius: 6px;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            body {
+                font-size: 0.95rem;
+            }
+
+            header {
+                font-size: 1.3rem;
+                padding: 0.8rem 0.5rem;
+            }
+
+            .container {
+                padding: 0.9rem;
+                margin: 1.5rem auto;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+                margin-top: 1.8rem;
+            }
+
+            h3 {
+                font-size: 1.1rem;
+                margin-top: 0.7rem;
+            }
+
+            ul {
+                margin-left: 0.5rem;
+                padding-left: 0.7rem;
+            }
+
+            li>ul {
+                margin-top: 0.2rem;
+                margin-bottom: 0.4rem;
+                padding-left: 0.5rem;
+            }
+
+            li>ul>li {
+                margin-bottom: 0.3rem;
+            }
+
+            ul li {
+                font-size: 0.95rem;
+                line-height: 1.3rem;
+            }
+        }
+
+        /* Print styles */
+        @media print {
+            .container {
+                page-break-after: always;
+            }
+        }
+
+        .subheading {
+            margin-left: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .subheading {
+                margin-left: 1rem;
+            }
+        }
+
+        .subsection {
+            margin-left: 1.5rem;
+        }
+
+        .subsection h4 {
+            margin-left: 0;
+        }
+
+        @media (max-width: 768px) {
+            .subsection {
+                margin-left: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- WNS Mid-02 -->
+
+    <div style="background-color: #ffeb3b; text-align: center; padding: 0.8rem; font-size: 1.1rem; font-weight: bold;">
+        <a href="https://drive.google.com/file/d/14Z-qiE8x6QHVzARtriV1KPclvZ-t87LD/view?usp=sharing" target="_blank"
+            style="color: #000; text-decoration: none;">
+            📄 Click here for Quiz PDF
+        </a>
+    </div>
+
+    <header>
+        WNS Mid-02
+    </header>
+
+    <div class="container">
+        <h2>1) Explain the Architecture and Working of Personal Digital Cellular (PDC) Technology. Discuss its Security Features and Potential Threats in Wireless.</h2>
+
+        <ul>
+            <li><strong>PDC:</strong>
+                <ul>
+                    <li>PDC stands for <strong>Personal Digital Cellular</strong></li>
+                    <li>It is a Digital Cellular telecommunication system developed by Japan in the 1990s</li>
+                    <li>PDC operates in the 800 MHz Frequency Bandwidth</li>
+                    <li>PDC is designed to replace the analogue systems by improving voice clarity and removing background noise</li>
+                    <li>It uses <strong>ATC</strong> for improving the voice clarity</li>
+                    <li><strong>ATC</strong> stands for Adaptive Transform Coding</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Security Features:</h3>
+        <div class="subsection">
+            <h4>i) Encryption:</h4>
+            <ul>
+                <li>The process of converting plaintext to ciphertext by using a cryptographic algorithm is called as Encryption.</li>
+            </ul>
+
+            <h4>ii) Authentication:</h4>
+            <ul>
+                <li>The process of verifying the identity of a user or device is called as Authentication.</li>
+                <li>Only Authorized users can access the data.</li>
+            </ul>
+
+            <h4>iii) Error Control:</h4>
+            <ul>
+                <li>Error control detects and corrects the errors.</li>
+                <li>Types of Errors:</li>
+                <ul>
+                    <li>Single-bit error</li>
+                    <li>Burst error</li>
+                </ul>
+            </ul>
+        </div>
+
+        <h3>Potential Threats in Wireless:</h3>
+        <ul>
+            <li>Unauthorized Access</li>
+            <li>Eavesdropping</li>
+            <li>Man-In-The-Middle Attack</li>
+            <li>Denial-Of-Service Attack</li>
+        </ul>
+    </div>
+    <header>
+    WNS Mid-02
+</header>
+
+<div class="container">
+    <h2>2) FDMA vs TDMA vs CDMA</h2>
+
+    <h3>FDMA (Frequency Division Multiple Access):</h3>
+    <ul>
+        <li>FDMA stands for <strong>Frequency Division Multiple Access</strong></li>
+        <li>Each user gets a separate frequency band</li>
+        <li>Divides the channel by frequency</li>
+        <li>Synchronization is not required</li>
+        <li>It only needs guard bands</li>
+        <li>It is very simple to implement</li>
+        <li>It is less flexible and has a low data rate</li>
+        <img src="WhatsApp Image 2025-11-03 at 21.39.29_cf6b7a09.jpg"/>
+    </ul>
+
+    <h3>TDMA (Time Division Multiple Access):</h3>
+    <ul>
+        <li>TDMA stands for <strong>Time Division Multiple Access</strong></li>
+        <li>Each user gets a different time slot</li>
+        <li>Divides the channel by time</li>
+        <li>Synchronization is required</li>
+        <li>It only needs guard time</li>
+        <li>It is simple to implement</li>
+        <li>It is moderately flexible and has a moderate data rate</li>
+        <img src="WhatsApp Image 2025-11-03 at 21.40.53_b0978dfd.jpg"/>
+    </ul>
+
+    <h3>CDMA (Code Division Multiple Access):</h3>
+    <ul>
+        <li>CDMA stands for <strong>Code Division Multiple Access</strong></li>
+        <li>Each user gets a unique code</li>
+        <li>Divides the channel by code</li>
+        <li>Synchronization is required</li>
+        <li>It needs both guard bands and guard time</li>
+        <li>It is complex to implement</li>
+        <li>It is highly flexible and has a high data rate</li>
+        <img src="WhatsApp Image 2025-11-03 at 21.40.24_269256c4.jpg"/>
+    </ul>
+</div>
+<header>
+    WNS Mid-02
+</header>
+
+<div class="container">
+    <h2>3) Outline the Cellular Digital Packet Data Architecture and its Security Model</h2>
+
+    <h3>CDPD:</h3>
+    <ul>
+        <li>CDPD stands for <strong>Cellular Digital Packet Data</strong></li>
+        <li>CDPD is a wireless technology for sending data over cellular networks.</li>
+        <li>CDPD transmits data in packets, making communication efficient.</li>
+        <img src="WhatsApp Image 2025-11-03 at 21.55.06_519bc0d5.jpg"/>
+    </ul>
+
+    <h3>CDPD Architecture:</h3>
+    <ul>
+        <li>The Architecture mainly consists of three main components:</li>
+        <ul>
+            <li><strong>a) M-ES:</strong>
+                <ul>
+                    <li>M-ES stands for <strong>Mobile-End System</strong></li>
+                    <li>The devices you use like Laptop, Mobile</li>
+                    <li><strong>Main Job:</strong> Transmits and receives the data by using a wireless signal</li>
+                    <li>Communicates with the Network via <strong>A-Interface</strong></li>
+                </ul>
+            </li>
+
+            <li><strong>b) MDBS:</strong>
+                <ul>
+                    <li>MDBS stands for <strong>Mobile Data Base Station</strong></li>
+                    <li>Base station that connects devices</li>
+                    <li><strong>Main Job:</strong> It helps to connect the devices</li>
+                    <li>Communicates with M-ES over <strong>A-Interface</strong></li>
+                </ul>
+            </li>
+
+            <li><strong>c) MD-IS:</strong>
+                <ul>
+                    <li>MD-IS stands for <strong>Mobile Data Intermediate System</strong></li>
+                    <li>Server that connects towers to the Internet</li>
+                    <li><strong>Main Job:</strong> Routes data between Towers and the Internet</li>
+                    <li>Communicates with MDBS and external Networks</li>
+                </ul>
+            </li>
+        </ul>
+    </ul>
+
+    <h3>CDPD Interfaces:</h3>
+    <ul>
+        <li>There are mainly three types of interfaces:</li>
+        <ul>
+            <li>a) A-Interface</li>
+            <li>b) I-Interface</li>
+            <li>c) E-Interface</li>
+        </ul>
+    </ul>
+</div>
+<header>
+    WNS Mid-02
+</header>
+
+<div class="container">
+    <h2>4) Differentiate b/w IEEE 802.11 and IEEE 802.15 Standards in terms of Architecture and Security Mechanisms</h2>
+
+    <h3>IEEE 802.11 (Wi-Fi):</h3>
+    <ul>
+        <li>It is designed for <strong>WLAN (Wireless Local Area Network)</strong></li>
+        <li>It ranges up to 100 meters</li>
+        <li>It operates in the 2.4 to 5 GHz frequency bandwidth</li>
+        <li>Data rate is up to 600 Mbps</li>
+        <li>It uses higher power consumption</li>
+        <img src="WhatsApp Image 2025-11-03 at 22.16.00_a73dfbe7.jpg" alt="IEEE 802.11 Wi-Fi Diagram" />
+    </ul>
+
+    <h3>IEEE 802.15 (Bluetooth):</h3>
+    <ul>
+        <li>It is designed for <strong>WPAN (Wireless Personal Area Network)</strong></li>
+        <li>It ranges up to 10 meters</li>
+        <li>It operates in the 2.4 GHz frequency bandwidth</li>
+        <li>Data rate is up to 3 Mbps</li>
+        <li>It uses lower power consumption</li>
+        <img src="WhatsApp Image 2025-11-03 at 22.16.30_d2b2e34b.jpg" alt="IEEE 802.15 Bluetooth Diagram" />
+    </ul>
+</div>
+<header>
+    WNS Mid-02
+</header>
+
+<div class="container">
+    <h2>5) Explain the Security Considerations while implementing Wireless LANs in enterprise computing designs.</h2>
+
+    <p>It mainly focuses on three layers:</p>
+    <ul>
+        <li>Physical Layer Security</li>
+        <li>Network Layer Security</li>
+        <li>Application Layer Security</li>
+    </ul>
+
+    <h3>i) Physical Layer Security:</h3>
+    <ul>
+        <li>In this layer, it stops outsiders from connecting to the wireless network.</li>
+        <li>Uses shielding materials to reduce the strength of the signal.</li>
+        <li><strong>RF Coverage Area:</strong>
+            <ul>
+                <li>It ensures that the network signals cover only the right area.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>ii) Network Layer Security:</h3>
+    <ul>
+        <li>In this layer, it protects the wireless network from attackers.</li>
+        <li>It uses protocols like <strong>WPA2</strong> and <strong>WPA3</strong>.</li>
+        <li>It uses <strong>802.1X authentication</strong> and <strong>VPN</strong> for remote users.</li>
+    </ul>
+
+    <h3>iii) Application Layer Security:</h3>
+    <ul>
+        <li>In this layer, it keeps the data safe and ensures that only authorized users can access the application.</li>
+        <li>It uses protocols like <strong>HTTPS</strong>, <strong>SFTP</strong>, and <strong>SSH</strong>.</li>
+        <li>It uses <strong>SSL/TLS</strong> and <strong>VPN</strong> to encrypt the data.</li>
+    </ul>
+</div>
+
+
+
+</body>
+</html>
